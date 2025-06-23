@@ -1,0 +1,38 @@
+@extends('layout')
+
+@section('judul', 'Profil')
+
+@section('konten')
+<section class="hero is-success">
+    <div class="hero-body">
+        <p class="title">SELAMAT DATANG</p>
+        <p class="subtitle">FADIL WEDDING ORGANIZING</p>
+    </div>
+</section>
+<section class="section has-background-primary-soft has-text-primary-soft-invert">
+    <div class="columns">
+        <div class="column is-one-third box">
+            <img class="image" src="/images/foto.jpeg" alt="Foto">
+        </div>
+        <div class="column">
+            <table class="table is-striped">
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>FADILAH NURIA HANDAYANI</td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td>Surakarta</td>
+                </tr>
+                <tr>
+                    <td>Kewarganegaraan</td>
+                    <td>:</td>
+                    <td>Indonesia</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+@endsection
